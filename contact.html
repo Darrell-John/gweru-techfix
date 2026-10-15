@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Gweru TechFix</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Gweru TechFix</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We are here to fix your tech in Gweru</p>
+    </section>
+
+   <section class="contact-section">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p><strong>Location:</strong> Gweru, Zimbabwe</p>
+            <p><strong>Phone:</strong> +263 71 786 8620</p>
+            <p><strong>Email:</strong> info@gwerutechfix.co.zw</p>
+            <p><strong>Hours:</strong> Mon - Sat, 8AM - 5PM</p>
+        </div>
+
+        <form class="contact-form" action="#" method="POST" novalidate>
+            <h2>Send Message</h2>
+            <p class="form-note">Fields marked <span class="required">*</span> are required.</p>
+
+            <!-- Personal details -->
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name <span class="required">*</span></label>
+                        <input type="text" id="first-name" name="first_name" placeholder="e.g. Tendai" autocomplete="given-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name <span class="required">*</span></label>
+                        <input type="text" id="last-name" name="last_name" placeholder="e.g. Moyo" autocomplete="family-name" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone / WhatsApp <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+263 7X XXX XXXX" autocomplete="tel" pattern="[0-9+\s]{9,15}" required>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Enquiry details -->
+            <fieldset>
+                <legend>Your Enquiry</legend>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="service">Service Needed <span class="required">*</span></label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="phone-repair">Phone Repair</option>
+                            <option value="laptop-repair">Laptop / PC Repair</option>
+                            <option value="screen-replacement">Screen Replacement</option>
+                            <option value="software-issues">Software / Virus Removal</option>
+                            <option value="data-recovery">Data Recovery</option>
+                            <option value="networking">Networking / WiFi Setup</option>
+                            <option value="shop-purchase">Shop / Product Enquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="device">Device Brand / Model</label>
+                        <input type="text" id="device" name="device" placeholder="e.g. Samsung A14, HP 250 G8">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="subject" placeholder="Brief summary of the issue" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="6" maxlength="1000" placeholder="Describe the problem, when it started, and anything you've already tried..." required></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Preferences -->
+            <fieldset>
+                <legend>Preferences</legend>
+
+                <div class="form-group">
+                    <span class="group-label">Preferred Contact Method</span>
+                    <div class="option-group">
+                        <label class="option"><input type="radio" name="contact_method" value="whatsapp" checked> WhatsApp</label>
+                        <label class="option"><input type="radio" name="contact_method" value="call"> Phone Call</label>
+                        <label class="option"><input type="radio" name="contact_method" value="email"> Email</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="urgency">Urgency</label>
+                    <select id="urgency" name="urgency">
+                        <option value="normal" selected>Normal (within a few days)</option>
+                        <option value="urgent">Urgent (same day / next day)</option>
+                        <option value="flexible">Flexible (no rush)</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <!-- Spam trap: hidden from real users -->
+            <div class="hp-field" aria-hidden="true">
+                <label for="website">Leave this field empty</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
+            <label class="option consent">
+                <input type="checkbox" name="consent" required>
+                I agree to be contacted about my enquiry. <span class="required">*</span>
+            </label>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+        <p>&copy; 2026 Gweru TechFix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
