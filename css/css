@@ -1,0 +1,110 @@
+/* Gweru TechFix - Main Stylesheet - Setup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+    background: #0d1117;
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff6a00;
+}
+
+/* Hero Section - Homepage */
+.hero {
+    background: #161b22;
+    color: white;
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #ff6a00;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.btn {
+    background: #ff6a00;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e05e00;
+}
+
+/* Features Cards */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 5%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 260px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #0d1117;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
