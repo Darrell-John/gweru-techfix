@@ -9,7 +9,7 @@ Live Demo: https://Darrell-John.github.io/gweru-techfix/
 | Real Name | Reg Number | GitHub Username | Contribution |
 |---|---|---|---|
 | Darrell John | R25746A | Darrell-John | Homepage / Deployment |
-| Sebastain Charasa | R00XXXXX | @r253928p-lgtm | Services Page |
+| Sebastain Charasa | R253928P | @r253928p-lgtm | Services Page |
 | [Edit Real Name 3] | R00XXXXX | @trickstermafi | Contact Page |
 | [Edit Real Name 4] | R00XXXXX | @sibs807 | Shop Page |
 | Reggies Mahuda| R00XXXXX | @reggiesmahuda | About Page |
