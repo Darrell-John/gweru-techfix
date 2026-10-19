@@ -10,7 +10,7 @@ Live Demo: https://Darrell-John.github.io/gweru-techfix/
 |---|---|---|---|
 | Darrell John | R25746A | Darrell-John | Homepage / Deployment |
 | Sebastain Charasa | R253928P | @r253928p-lgtm | Services Page |
-| [Tanaka Chesango] | R254005P | @trickstermafi | Contact Page |
+| Tanaka Chesango | R254005P | @trickstermafi | Contact Page |
 | Marvelous Sibanda| R247869H | @sibs807 | Shop Page |
 | Reggies Mahuda| R252706B | @reggiesmahuda | About Page |
 
